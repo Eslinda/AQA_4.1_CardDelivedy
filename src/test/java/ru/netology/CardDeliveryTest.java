@@ -21,7 +21,7 @@ public class CardDeliveryTest {
     }
 
     public String generateDate(int days) {
-        return LocalDate.now().plusDays(4).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+        return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
     @Test
